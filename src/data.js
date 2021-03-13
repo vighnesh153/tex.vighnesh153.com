@@ -2,9 +2,10 @@ const data = [
   {
     name: "Basic",
     inputs: [
-      { name: 'Space', code: '\\:', nameAsIs: true },
+      { name: 'Space', code: '\\ ', nameAsIs: true },
       { name: 'Quad', code: '\\quad', nameAsIs: true },
-      { name: 'Enter', code: '\\\\', nameAsIs: true },
+      // { name: 'Enter', code: '\\\\', nameAsIs: true },  // Not implemented in v3 yet
+      { name: 'Enter', code: '\\displaylines{x = a + b \\\\ y = b + c}', nameAsIs: true },
       { name: '\\cdot', code: '\\cdot' },
       { name: '.', code: '.' },
       { name: '+', code: '+' },

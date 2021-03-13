@@ -11,6 +11,7 @@ import Button from '@material-ui/core/Button';
 import MathComponent from "./MathComponent";
 
 import data from "./data";
+import Store from "./store";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,8 +67,9 @@ function MyButton(props) {
     <Button
       variant={"outlined"}
       style={{height: props.height }}
+      onClick={() => Store.buttonClick.publish(props.code)}
     >
-      <MathComponent tex={`${props.children}`} />
+      <MathComponent display tex={`\\large {${props.children}}`} />
     </Button>
   );
 }
@@ -113,6 +115,7 @@ function Buttons() {
                 key={inputIndex}
                 variant={"outlined"}
                 height={data[tabIndex].height}
+                code={input.code}
               >
                 {input.name}
               </MyButton>

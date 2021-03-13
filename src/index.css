@@ -4,7 +4,6 @@
   box-sizing: border-box;
 
   outline: none !important;
-
 }
 
 html,
@@ -26,7 +25,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-svg {
 }
