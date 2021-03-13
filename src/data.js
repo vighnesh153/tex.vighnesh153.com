@@ -62,6 +62,8 @@ const data = [
       { name: '\\lfloor', code: '\\lfloor' },
       { name: '\\rfloor', code: '\\rfloor' },
     ],
+    width: 57,
+    height: 57,
   },
   {
     name: "Math",
@@ -103,9 +105,9 @@ const data = [
       { name: '\\frac{\\partial a}{\\partial b}', code: '\\displaystyle\\frac{\\partial a}{\\partial b}' },
       { name: '\\frac{\\text{d}x}{\\text{d}y}', code: '\\displaystyle\\frac{\\text{d}x}{\\text{d}y}' },
       { name: '\\lim_{a \\rightarrow b}', code: '\\displaystyle\\lim_{a \\rightarrow b}' },
-      { name: '', code: '' },
-      { name: '', code: '' },
     ],
+    width: 87,
+    height: 57,
   },
   {
     name: "Formula",
@@ -137,6 +139,8 @@ const data = [
       { name: '\\lim_{x \\to \\infty} \\exp(-x) = 0', code: '\\displaystyle\\lim_{x \\to \\infty} \\exp(-x) = 0' },
       { name: '\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta', code: '\\displaystyle\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta' },
     ],
+    width: 197,
+    height: 82,
   },
   {
     name: "Arrows",
@@ -207,6 +211,8 @@ const data = [
       { name: "\\nleftrightarrow", code: "\\nleftrightarrow" },
       { name: "\\leftrightsquigarrow", code: "\\leftrightsquigarrow" },
     ],
+    width: 57,
+    height: 57,
   },
   {
     name: 'Alphabets',
@@ -272,6 +278,8 @@ const data = [
       { name: "\\wp", code: "\\wp" },
       { name: "\\Game", code: "\\Game" },
     ],
+    width: 57,
+    height: 57,
   },
   {
     name: 'Symbols',
@@ -313,6 +321,8 @@ const data = [
       { name: "\\infty", code: "\\infty" },
       { name: "\\sphericalangle", code: "\\sphericalangle" },
     ],
+    width: 57,
+    height: 57,
   },
   {
     name: 'Operators',
@@ -528,6 +538,8 @@ const data = [
       { name: "\\bigoplus", code: "\\bigoplus" },
       { name: "\\biguplus", code: "\\biguplus" },
     ],
+    width: 57,
+    height: 57,
   },
   {
     name: 'Functions',
@@ -585,6 +597,8 @@ const data = [
       { name: "\\projlim", code: "\\projlim" },
       { name: "\\varlimsup", code: "\\varlimsup" },
     ],
+    width: 99,
+    height: 57,
   },
   {
     name: 'Fonts',
@@ -608,6 +622,8 @@ const data = [
       { name: "\\mathsf{Sans Serif}", code: "\\mathsf{Sans Serif}" },
       { name: "\\mathtt{Typewriter}", code: "\\mathtt{Typewriter}" },
     ],
+    width: 134,
+    height: 57,
   },
   {
     name: 'Colors',
@@ -647,6 +663,8 @@ const data = [
       { name: "{\\color[RGB]{184,134,11} Dark Gold}", code: "{\\color[RGB]{184,134,11} Dark Gold}" },
       { name: "{\\color[RGB]{165,42,42} Brown}", code: "{\\color[RGB]{165,42,42} Brown}" },
     ],
+    width: 99,
+    height: 42,
   },
 ];
 
